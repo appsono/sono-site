@@ -16,7 +16,7 @@
             <div class="value-item">
               <div class="value-content">
                 <h3 class="value-title">Privacy First</h3>
-                <p class="value-text">Your music stays on your device. No tracking, no data collection.</p>
+                <p class="value-text">Your music stays on your device.</p>
               </div>
             </div>
             <div class="value-item">
