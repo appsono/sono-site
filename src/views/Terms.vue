@@ -4,7 +4,7 @@
     <div class="legal-container">
       <header class="legal-header">
         <h1>Terms of Service</h1>
-        <p class="last-updated">Last Updated: October 1, 2025</p>
+        <p class="last-updated">Last Updated: January 24, 2026</p>
       </header>
 
       <div class="legal-content">
@@ -15,7 +15,7 @@
           <address>
             Mathis Laarmanns<br>
             North Rhine-Westphalia, Germany<br>
-            Email: business@mathiiis.de
+            Email: business@mail.sono.wtf
           </address>
           <p>1.3 These Terms regulate the contractual relationship between the operator and the users of the App.</p>
         </section>
@@ -27,7 +27,7 @@
           <ul>
             <li>Playing local music files</li>
             <li>Creating local playlists</li>
-            <li>Jam sessions (local streaming)</li>
+            <li>SAS (Sono Audio Stream) sessions</li>
             <li>Last.fm integration</li>
             <li>Sleep timer and playback controls</li>
           </ul>
@@ -53,7 +53,7 @@
           <p>3.1 Sono is a music player application with the following main features:</p>
           <ul>
             <li>Playback of local music files</li>
-            <li>Jam session feature for shared listening experiences (peer-to-peer audio streaming)</li>
+            <li>SAS (Sono Audio Stream) - peer-to-peer audio streaming for shared listening experiences</li>
             <li>Last.fm integration for scrobbling and music metadata</li>
             <li>Lyrics display via lrclib integration</li>
             <li>Music metadata via MusicBrainz</li>
@@ -88,12 +88,12 @@
         </section>
 
         <section>
-          <h2>5. Jam Sessions and Streaming</h2>
-          <p>5.1 The jam session feature enables peer-to-peer audio streaming between devices.</p>
-          <p>5.2 The host of a jam session is responsible for the legality of the streamed content.</p>
-          <p>5.3 Participation in jam sessions occurs via QR code scanning. The user is responsible for the security of their session access credentials.</p>
-          <p>5.4 The operator assumes no liability for content shared in jam sessions.</p>
-          <p>5.5 Jam sessions are direct device-to-device connections. No audio data is stored on our servers.</p>
+          <h2>5. SAS (Sono Audio Stream)</h2>
+          <p>5.1 SAS (Sono Audio Stream) is a feature that enables peer-to-peer audio streaming between devices for shared listening experiences.</p>
+          <p>5.2 The host of a SAS session is responsible for the legality of the streamed content.</p>
+          <p>5.3 Participation in SAS sessions occurs via QR code scanning. The user is responsible for the security of their session access credentials.</p>
+          <p>5.4 The operator assumes no liability for content shared in SAS sessions.</p>
+          <p>5.5 SAS sessions are direct device-to-device connections. No audio data is stored on our servers.</p>
         </section>
 
         <section>
@@ -134,7 +134,7 @@
           <h2>10. Term and Termination</h2>
           <p>10.1 The contract is concluded for an indefinite period.</p>
           <p>10.2 Both parties may terminate the contract at any time without notice.</p>
-          <p>10.3 Termination by the user occurs through deletion of the account in the App settings or by email to business@mathiiis.de. Users without accounts can simply delete the App.</p>
+          <p>10.3 Termination by the user occurs through deletion of the account in the App settings or by email to business@mail.sono.wtf. Users without accounts can simply delete the App.</p>
           <p>10.4 The right to extraordinary termination for good cause remains unaffected.</p>
         </section>
 
@@ -165,7 +165,7 @@
       <footer class="legal-footer">
         <h3>Contact</h3>
         <p>
-          Email: <a href="mailto:business@mathiiis.de">business@mathiiis.de</a><br>
+          Email: <a href="mailto:business@mail.sono.wtf">business@mail.sono.wtf</a><br>
           Mathis Laarmanns<br>
           North Rhine-Westphalia, Germany
         </p>

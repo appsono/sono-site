@@ -217,5 +217,5 @@ Availability: {app_data.availability}
         print(f"[ERROR] Failed to send email: {str(e)}")
         raise HTTPException(
             status_code=500,
-            detail="Failed to submit application. Please try again later or contact us directly at business@mathiiis.de"
+            detail="Failed to submit application. Please try again later or contact us directly at business@mail.sono.wtf"
         )

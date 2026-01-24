@@ -4,7 +4,7 @@
     <div class="legal-container">
       <header class="legal-header">
         <h1>Privacy Policy</h1>
-        <p class="last-updated">Last Updated: October 1, 2025</p>
+        <p class="last-updated">Last Updated: January 24, 2026</p>
       </header>
 
       <div class="legal-content">
@@ -14,7 +14,7 @@
           <address>
             Mathis Laarmanns<br>
             North Rhine-Westphalia, Germany<br>
-            Email: business@mathiiis.de
+            Email: business@mail.sono.wtf
           </address>
         </section>
 
@@ -45,7 +45,7 @@
         <section>
           <h2>4. Types of Data Processed</h2>
           
-          <h3>4.1 Account Data (Sono Accounts API) - OPTIONAL</h3>
+          <h3>4.1 Account Data (Sono API) - OPTIONAL</h3>
           <p><strong>Registration provides access to Sono API Features.</strong> If you create a Sono Account, we collect:</p>
           <ul>
             <li>Username</li>
@@ -97,44 +97,33 @@
             <li>Device model and operating system version</li>
             <li>App version</li>
             <li>Unique device ID (for session management)</li>
-            <li>IP address (temporarily for jam sessions)</li>
+            <li>IP address (temporarily for SAS sessions)</li>
           </ul>
           <p><strong>Legal basis:</strong> Art. 6(1)(f) GDPR (legitimate interest in functionality)<br>
           <strong>Storage duration:</strong> Until session termination/disconnection</p>
 
-          <h3>4.5 Anonymous Usage Statistics and Crash Data - COLLECTED BY DEFAULT</h3>
-          <p><strong>We collect anonymous analytics and crash data to improve the App.</strong> This includes:</p>
+          <h3>4.5 Crash Logs - OPTIONAL (OPT-OUTABLE)</h3>
+          <p><strong>We collect crash logs to improve app stability and fix bugs.</strong> This includes:</p>
           <ul>
-            <li>App usage duration and session frequency</li>
-            <li>Features used (aggregated, no individual tracking)</li>
-            <li>Crash reports and error logs (anonymized, no personal data)</li>
-            <li>Performance metrics (load times, resource usage)</li>
+            <li>Error logs and stack traces (anonymized, no personal data)</li>
             <li>Device type and OS version (for compatibility)</li>
+            <li>App version and build number</li>
           </ul>
           <div class="important-box">
             <p><strong>Important:</strong></p>
             <ul>
               <li>This data is fully anonymized and cannot be linked to you</li>
               <li>No personally identifiable information is included</li>
-              <li>You can opt out at any time in Settings → "Send Anonymous Analytics"</li>
+              <li>You can opt out at any time in Settings > Developer > "Crash Reporting"</li>
             </ul>
           </div>
           <p><strong>Legal basis:</strong> Art. 6(1)(f) GDPR (legitimate interest in app improvement)<br>
           <strong>Storage duration:</strong> 12 months, then automatic deletion<br>
-          <strong>Opt-out:</strong> Settings → Send Anonymous Analytics (toggle off)</p>
+          <strong>Opt-out:</strong> Settings > Developer > Privacy > Crash Reporting (toggle off)</p>
 
-          <h3>4.6 Location Data (Optional)</h3>
-          <p>For personalized content and recommendations:</p>
+          <h3>4.6 Camera and Photo Access (Optional)</h3>
           <ul>
-            <li>Approximate location (city level, only with your consent)</li>
-          </ul>
-          <p><strong>Legal basis:</strong> Art. 6(1)(a) GDPR (consent)<br>
-          <strong>Withdrawal:</strong> Device settings at any time</p>
-
-          <h3>4.7 Microphone, Camera, and Photo Access (Optional)</h3>
-          <ul>
-            <li><strong>Microphone:</strong> For voice features and audio recording</li>
-            <li><strong>Camera:</strong> For QR code scanning (jam sessions) and profile pictures</li>
+            <li><strong>Camera:</strong> For QR code scanning (SAS sessions) and profile pictures</li>
             <li><strong>Photo Library:</strong> For selecting profile pictures</li>
           </ul>
           <p><strong>Legal basis:</strong> Art. 6(1)(a) GDPR (consent)<br>
@@ -176,10 +165,11 @@
         </section>
 
         <section>
-          <h2>6. Jam Sessions (Audio Streaming)</h2>
-          <p><strong>Host Mode:</strong> As a jam session host, a temporary server is created on your device. Your local IP address is visible to connected clients.</p>
+          <h2>6. SAS (Sono Audio Stream)</h2>
+          <p><strong>SAS (Sono Audio Stream)</strong> is a peer-to-peer audio streaming feature for shared listening experiences.</p>
+          <p><strong>Host Mode:</strong> As a SAS session host, a temporary server is created on your device. Your local IP address is visible to connected clients.</p>
           <p><strong>Client Mode:</strong> As a participant, your IP address is visible to the host. You receive audio streams from the host.</p>
-          <p><strong>Important:</strong> Jam sessions are peer-to-peer between devices. We do not store any audio data on our servers.</p>
+          <p><strong>Important:</strong> SAS sessions are peer-to-peer between devices. We do not store any audio data on our servers.</p>
           <p><strong>Duration:</strong> Only during active session</p>
         </section>
 
@@ -207,7 +197,7 @@
 
           <h3>8.3 Right to Erasure (Art. 17 GDPR)</h3>
           <p>You can request deletion of your data, provided there are no legal retention obligations.</p>
-          <p><strong>With Account:</strong> Request account deletion at business@mathiiis.de<br>
+          <p><strong>With Account:</strong> Request account deletion at business@mail.sono.wtf<br>
           <strong>Without Account:</strong> Simply delete the app to remove all local data</p>
 
           <h3>8.4 Right to Data Portability (Art. 20 GDPR)</h3>
@@ -216,9 +206,9 @@
           <h3>8.5 Withdrawal of Consent (Art. 7(3) GDPR)</h3>
           <p>You can withdraw any consent given at any time:</p>
           <ul>
-            <li><strong>Analytics & Crash Data:</strong> Settings → Send Anonymous Analytics (toggle off)</li>
-            <li><strong>Last.fm:</strong> Settings → Last.fm → Scrobbling (toggle off)</li>
-            <li><strong>Permissions:</strong> Device Settings → Sono → Permissions</li>
+            <li><strong>Crash Reports:</strong> Settings > Devloper > Crash Reporting (toggle off)</li>
+            <li><strong>Last.fm:</strong> Settings > Library & Scrobbling > Last.fm Scrobbling > Enable Scrobbling (toggle off)</li>
+            <li><strong>Permissions:</strong> Device Settings > Apps > Sono > Permissions</li>
           </ul>
 
           <h3>8.6 Right to Lodge a Complaint (Art. 77 GDPR)</h3>
@@ -251,8 +241,10 @@
               <li>Calendars or other personal data</li>
               <li>Payment information (as the App is free)</li>
               <li>Biometric data</li>
-              <li>Precise GPS coordinates (only approximate location if enabled)</li>
-              <li>Personal identifiers in analytics (all analytics are anonymous)</li>
+              <li>Location data (GPS, approximate location, or any location information)</li>
+              <li>Microphone access or audio recordings (except during SAS sessions, which are peer-to-peer)</li>
+              <li>Analytics or usage statistics (we only collect crash logs)</li>
+              <li>Personal identifiers in crash logs (all crash data is anonymous)</li>
             </ul>
           </div>
         </section>
@@ -285,7 +277,7 @@
         <h3>Contact</h3>
         <p>For questions about data protection or to exercise your rights, please contact us:</p>
         <p>
-          Email: <a href="mailto:business@mathiiis.de">business@mathiiis.de</a><br>
+          Email: <a href="mailto:business@mail.sono.wtf">business@mail.sono.wtf</a><br>
           Mathis Laarmanns<br>
           North Rhine-Westphalia, Germany
         </p>

@@ -195,7 +195,7 @@
     padding: 12px 24px;
     border-radius: 100px;
     font-weight: 500;
-    font-size: clamp(0.9rem, 1.1vw, 1rem); /* 14px → 16px */
+    font-size: clamp(0.9rem, 1.1vw, 1rem);
     border: none;
     cursor: pointer;
     transition: all var(--transition-fast);
@@ -287,7 +287,7 @@
     padding: 12px 24px;
     border-radius: 100px;
     font-weight: 500;
-    font-size: clamp(0.8rem, 1vw, 0.9rem); /* 13px → 14.5px */
+    font-size: clamp(0.8rem, 1vw, 0.9rem);
     border: none;
     cursor: pointer;
     transition: all var(--transition-fast);
