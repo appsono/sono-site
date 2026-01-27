@@ -8,7 +8,7 @@ pydantic-settings
 passlib[bcrypt]==1.7.4
 alembic==1.12.1
 python-jose[cryptography]==3.3.0
-python-multipart==0.0.6
+python-multipart>=0.0.22
 minio==7.2.0
 slowapi==0.1.9
 python-dotenv==1.0.0
