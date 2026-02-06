@@ -97,8 +97,7 @@
         </div>
 
         <p class="note">
-          Sono is soon completely Open Source, with the App being the last part to be published.
-          Free forever • No ads • Privacy focused
+          Open Source • Free forever • No ads • Privacy focused
         </p>
       </div>
 
