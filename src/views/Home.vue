@@ -139,15 +139,15 @@ import Media from "@/config/mediaPaths.js";
       </div>
       <figure class="hero-visuals">
         <img
-          src="../assets/images/screenshots/archive/HomeScreen.webp"
+          src="../assets/images/screenshots/screens/HomePage.png"
           alt="Home Screen"
         />
         <img
-          src="../assets/images/screenshots/archive/LibraryScreen.webp"
+          src="../assets/images/screenshots/screens/FullscreenPlayer.png"
           alt="Library Screen"
         />
         <img
-          src="../assets/images/screenshots/archive/NowPlayingScreen.webp"
+          src="../assets/images/screenshots/screens/ArtistView.png"
           alt="Phone View"
         />
       </figure>

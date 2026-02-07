@@ -13,11 +13,11 @@ const getAssetUrl = (path) => {
  * Screenshot Images
  */
 export const screenshots = {
-  nowPlaying: '/assets/images/screenshots/NowPlayingScreen.webp',
-  library: '/assets/images/screenshots/LibraryScreen.webp',
-  search: '/assets/images/screenshots/SearchScreen.webp',
-  home: '/assets/images/screenshots/HomeScreen.webp',
-  settings: '/assets/images/screenshots/SettingsScreen.webp',
+  nowPlaying: '/assets/images/screenshots/screens/FullscreenPlayer.png',
+  library: '/assets/images/screenshots/screens/LibraryScreen.png',
+  search: '/assets/images/screenshots/screens/SearchScreen.png',
+  home: '/assets/images/screenshots/screens/HomePage.png',
+  settings: '/assets/images/screenshots/screens/SettingsPage.png',
 }
 
 /**
